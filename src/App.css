@@ -1,0 +1,122 @@
+*{
+  box-sizing: border-box;
+  margin:0px;
+}
+.program-page{
+  background-color:#E9E9E9 ;
+  padding:20px;
+}
+.program-page h1{
+  margin-left:10px;
+}
+.prgram-container{
+  margin:10px;
+  display:flex;
+   flex-wrap:wrap;
+  gap:10px;
+}
+.program-filter{
+  width:230px;
+  height:130vh;
+  margin:10px;
+  margin-top:20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.program-filter h2{
+  margin-left:10px;
+}
+.program-filter-launchyr-cont {
+  margin-left:20px;
+  width:80%;
+  border-bottom:1px solid #1C96C5;
+  color:blue;
+  text-align: center;
+}
+.launchyr-cont button,.lnch-scs button,.landing-scs button{
+  width:70px;
+  height:35px;
+  background-color:#C5E09B;
+  border:1px solid #7CBA01;
+  border-radius: 5px;
+  margin:5px;
+}
+.launchyr-cont button:hover,.lnch-scs button:hover,.landing-scs button:hover{
+  background-color:#7CBA01;
+}
+.launchyr-cont{
+  margin:10px;
+  width:200px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:10px;
+}
+/***************************/ /* successful launch container*/
+.successful-lnch-cont{
+  margin-top:40px;
+}
+.lnch-title,.scs-landing-cont p{
+  border-bottom:1px solid #1C96C5;
+  width:80%;
+  margin-left:20px;
+  text-align: center;
+  color:blue;
+  padding:5px;
+}
+.lnch-scs,.landing-scs{
+  margin-top:15px;
+  display:flex;
+  justify-content: space-around;
+  
+}
+/********   successful landing *********/
+.scs-landing-cont{
+  margin-top:40px;
+}
+
+/*******************************************************************/
+.program-data{
+  margin:10px;
+  width:78%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap:10px;
+   
+}
+
+ .program-card{
+   margin-top:10px;
+   width:210px;
+   min-height:370px;
+   border-radius: 10px;
+   background-color: white;
+ }
+ .img-back{
+  background-color: #E9E9E9;
+  width:190px;
+  height:210px;
+  margin:10px;
+ }
+ .program-img{
+   width:100%;
+   height:100%;
+ }
+ .program-card-body{
+   width:190px;
+  height:150px;
+  margin:10px;
+  padding:5px;
+
+ }
+ .program-card-body-mission{
+   color:blue;
+ }
+ span{
+   color:#1C96C5;
+ }
+ .program-page p{
+   text-align: center;
+}
