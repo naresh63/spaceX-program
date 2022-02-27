@@ -33,8 +33,8 @@ function Programs() {
         let launchProgram=allprogram.filter(ele=>{
             return String(ele.launch_success).toUpperCase() === lnch.toUpperCase();
         })
-        console.log(programYear)
-        setFilterprogram(programYear)
+        console.log(launchProgram)
+        setFilterprogram(launchProgram)
         setShowtoggle(true)
     }
     // landing program filter functionality-----------/
@@ -42,8 +42,8 @@ function Programs() {
         let landingProgram=allprogram.filter(ele=>{
             return String(ele.rocket.first_stage.cores[0].landing_intent).toUpperCase() === landing.toUpperCase();
         })
-        console.log(programYear)
-        setFilterprogram(programYear)
+        console.log(landingProgram)
+        setFilterprogram(landingProgram)
         setShowtoggle(true)
     }
     
